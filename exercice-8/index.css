@@ -1,0 +1,56 @@
+
+#app{
+    background: linear-gradient(to right, #141e30, #243b55);
+    height: 100vh;
+    padding-top: 55px;
+}
+#app h1{
+    font-size: 1.4rem;
+    font-weight:700;
+    font-family: 'verdana', 'sans-serif';
+    margin-bottom: 55px;
+    color: #fafafa;
+    text-align:center;
+}
+#app h2{
+    font-size: 1.2rem;
+    font-weight:500;
+    font-family: 'verdana', 'sans-serif';
+    margin-bottom: 10px;
+    color: #fafafa5d;
+    text-align:center;
+}
+
+#app table{
+    margin: 0 auto;
+    border-collapse: collapse;
+
+    margin-bottom: 25px;
+}
+td {
+    width:30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    color: #fafafa3d;
+}
+td:hover{
+    background:rgba(216, 213, 213, 0.288);
+}
+
+#app .box{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#app .box div{
+    width: 50%;
+   
+}
+
+#app .box3{
+    color: #fafafabe;
+    text-align: center;
+   
+}
+

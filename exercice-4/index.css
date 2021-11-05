@@ -1,0 +1,31 @@
+html, body{
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: monospace;
+    font-size: 1rem;
+    position: relative;
+}
+
+#app{
+    height: 100vh;
+    width: 100%;
+}
+
+#app #svg2{
+    height: 100%;
+    width: 100%;
+}
+
+.nameCountries{
+    color: #fafafa;
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 0 auto;
+    right: 0 auto;
+    z-index: 10;
+
+
+}

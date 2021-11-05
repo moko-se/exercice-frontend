@@ -1,0 +1,59 @@
+
+#app{
+    background: linear-gradient(to right, #141e30, #243b55);
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#app h1{
+    font-size: 1.4rem;
+    font-weight:700;
+    font-family: 'verdana', 'sans-serif';
+    margin-bottom: 25px;
+    color: #fafafa;
+    text-align:center;
+}
+#app table{
+    margin: 0 auto;
+    border-collapse: collapse;
+
+    margin-bottom: 50px;
+}
+#app table tr{
+    border: none;
+    width: 100%;
+}
+#app table tr td{
+    border: 1px solid white;
+    color: #fafafa;
+    text-align: center;
+
+    margin: 0 auto;
+    width:70px;
+    height: 70px;
+    overflow: hidden;
+
+    line-height: 70px;
+    cursor: pointer;
+}
+#app p{
+    color: #fafafa;
+    font-size: 1.0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    order: 3;
+}
+
+#app .btnTry{
+    background: #fafafa;
+    color: #222;
+    
+    width: 150px;
+    height: 35px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
